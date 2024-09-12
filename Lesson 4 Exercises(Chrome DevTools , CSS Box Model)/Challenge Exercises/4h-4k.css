@@ -1,0 +1,79 @@
+/* 4h PAGINATION */
+.back__button {
+  padding: 8px;
+  margin: 8px;
+}
+
+.next__button {
+  padding: 8px;
+  margin: 8px;
+}
+
+.page-numbers {
+  margin: 4px 4px;
+}
+
+/* 4i. Stretch */
+
+.stretch__button {
+  border: none;
+  background-color: rgb(18, 228, 18);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: padding 800ms ease;
+}
+
+.stretch__button:hover {
+  padding: 18px 36px;
+}
+
+/* 4j. 3D Click */
+
+.shadow__button {
+  font-size: 18px;
+  border: none;
+  background-color: rgb(18, 228, 18);
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 0px 0px 0px 5px;
+}
+
+.shadow__button:active {
+  margin: 2px 10px;
+  box-shadow: none;
+}
+
+/* 4k. Margin and padding together */
+.row__button{
+  border:none;
+  background-color: rgb(18, 228, 18);
+  color: white;
+  font-size: 18px;
+  margin: 0px 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: padding 800ms, margin 800ms;
+}
+
+.row__button:hover{
+  margin: 0px;
+}
+
+.button-one:hover{
+  padding: 8px 25px;
+
+}
+
+.button-two:hover{
+  padding: 8px 25px;
+
+}
+
+.button-three:hover{
+  padding: 8px 25px;
+
+}
